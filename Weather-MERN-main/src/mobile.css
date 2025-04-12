@@ -1,0 +1,124 @@
+@media (max-width:1080px) {
+
+    /* NAVBAR.CSS */
+    .nav { left: -165px; justify-content: start;}
+    .nav span { display: none; }
+    .navlink { margin: 5px 0; }
+
+
+
+
+
+
+
+    /* TODO.CSS */
+    .form-container { margin: 100px 0 0 35px; }
+    .form { width: 85%; }
+    .input {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .input label { 
+        width: 70%;
+        text-align: start; 
+    }
+    .input input { 
+        width: 80%; 
+        margin-bottom: 6px;
+    }
+    #add-btn, #clear-btn {
+        margin: 0;
+        width: 38%;
+        background-color: rgb(0, 89, 255);
+    }
+    #add-btn { margin-right: 5px; }
+    #clear-btn { margin-left: 5px; }
+    #delete-btn { border: none; }
+    .todo-title {
+        margin: 20px 0 0 0;
+    }
+    .task-categories {
+        margin-top: 0;
+        padding: 0;
+    }
+    .task-categories .task-button {
+        padding: 4px 10px;
+    }
+    .active, .active:hover {
+        background-color: rgb(0, 89, 255);
+    }
+
+
+
+
+
+
+
+
+    /* WEATHER.CSS */
+    hr {
+        border-top: none;
+        border-color: rgb(0, 0, 0);
+    }
+    .location {
+        padding: 30px;
+        padding-bottom: 10px;
+        width: fit-content;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        border-radius: 20px;
+        background-color: rgba(230, 230, 250, 0);
+        gap: 1px;
+    }
+    #location-input {
+        height: 28px;
+        width: 70%;
+        padding: 0 10px;
+    }
+    #search-text { display: none; }
+    #location-search-button {
+        height: 28px;
+        padding: 3px 10px;
+        border: none;
+        border-radius: 8px;
+        background-color: rgb(255, 97, 35);
+    }
+    .fa-magnifying-glass {
+        display: block;
+    }
+    #results-for {
+        margin-left: -50px;
+        margin-top: -10px;
+        width: 100%;
+        text-align: center;
+    }
+    .weather {
+        padding: 30px;
+        width: 60%;
+        border-radius: 20px;
+        /* box-shadow: 0 0 20px black ; */
+    }
+    .stat {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        margin: 2px 0;
+    }
+    .stat-title {
+        font-weight: 600;
+        color: rgb(255, 255, 255);
+    }
+    .weather-container {
+        margin-left: 35px;
+        margin-top: 5px;
+    }
+    .weather {
+        width: 85%;
+        padding: 20px;
+        font-size: 12px;
+    }
+    .weather h1 { font-size: 22px; }
+    .weather h2 { font-size: 16px; }
+}
